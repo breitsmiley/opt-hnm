@@ -8,8 +8,12 @@
     "target": "es2017",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "incremental": true
   },
+  "include": [
+    "src/**/*",
+    "ormconfig.ts"
+  ],
   "exclude": ["node_modules", "dist"]
 }
